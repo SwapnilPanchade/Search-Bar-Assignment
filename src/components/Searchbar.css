@@ -1,0 +1,74 @@
+.input-wrapper {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 12px;
+  padding: 8px 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: box-shadow 0.3s ease, border 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.input-wrapper:hover {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+  border-color: #eee;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  font-size: 1.2rem;
+  margin-left: 8px;
+  flex: 1;
+  transition: color 0.3s ease;
+}
+
+input::placeholder {
+  color: #bbb;
+  transition: color 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  color: #333;
+}
+
+#search-icon {
+  color: royalblue;
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#search-icon:hover {
+  transform: scale(1.1);
+}
+
+#clear-icon {
+  color: black;
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#clear-icon:hover {
+  transform: scale(1.8);
+  color: #555;
+}
+
+.clear-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.clear-text {
+  font-size: 1rem;
+  color: royalblue;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.clear-text:hover {
+  color: #0056b3;
+}
