@@ -1,12 +1,13 @@
-# React + Vite
+# Simple Minimal Search Bar 
+Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dynamic Search Icon: The search icon changes to a right arrow when text is entered.
 
-Currently, two official plugins are available:
+Clear Button: Includes a clear (X) icon and text that clears the input field.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Custom Styling: Responsive and modern UI design using CSS.
 
-## Expanding the ESLint configuration
+Smooth User Interaction: Transitions and effects for a better user experience.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+please use npm install to install dependencies 
