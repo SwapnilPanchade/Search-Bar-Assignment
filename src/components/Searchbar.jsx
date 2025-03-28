@@ -22,7 +22,7 @@ export const Searchbar = () => {
 
   return (
     <div className="input-wrapper" ref={searchRef}>
-      {input ? (
+      {input.length > 0 ? (
         <FaArrowRight id="search-icon" />
       ) : (
         <FaSearch id="search-icon" />
@@ -33,7 +33,7 @@ export const Searchbar = () => {
         value={input}
         onChange={(e) => setInput(e.target.value)}
       />
-      {input && (
+      {input.length > 0 && (
         <div className="clear-wrapper">
           <span className="clear-text" onClick={() => setInput("")}>
             Clear
